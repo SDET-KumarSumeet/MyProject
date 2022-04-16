@@ -1,0 +1,103 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v12="http://api.web.bc/capability/business/b182-01/services/personcreating/flv000023/v1" xmlns:v13="http://api.web.bc/capability/business/b182-01/objects/requestsubmitpersoncreating/flv000023/v1">
+   <soapenv:Header>
+      <v2:CommonContextRequest>
+         <v2:transaction>
+            <v1:messageId>${Req_corrId}</v1:messageId>
+            <v1:correlationId>${Req_corrId}</v1:correlationId>
+            <v1:conversationId>${Req_conversationId}</v1:conversationId>
+            <v1:dateTimeCreated>${Req_dateTimeCreated}</v1:dateTimeCreated>
+         </v2:transaction>
+      </v2:CommonContextRequest>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v12:RequestDataSubmitPersonCreating>
+         <v12:serviceContext>
+            <v12:transactionData>
+               <v12:endUserId>609496301</v12:endUserId>
+               <v12:endUserLanguage>EN</v12:endUserLanguage>
+               <v12:consumerApplication>DOF</v12:consumerApplication>
+            </v12:transactionData>
+            <v12:scoping>
+               <v12:functionalScope>
+                  <v13:value>WITH_MATCHING</v13:value>
+               </v12:functionalScope>
+            </v12:scoping>
+         </v12:serviceContext>
+         <v12:serviceData>
+            <v12:person>
+               <!--Optional:-->
+               <v13:name>
+                  <!--Optional:-->
+                  <v13:firstName>${Req_firstName}</v13:firstName>
+                  <!--Optional:-->
+                  <v13:lastName>${Req_lastName}</v13:lastName>
+               </v13:name>
+               <!--Optional:-->
+               <v13:title>
+                  <v13:value>${Req_title_value}</v13:value>
+               </v13:title>
+               <!--Optional:-->
+               <v13:birthDate>${Req_birthDate}</v13:birthDate>
+               <!--Optional:-->
+               <v13:gender>
+                  <v13:value>${Req_gender_value}</v13:value>
+               </v13:gender>
+               
+               <v13:party>
+                  <v13:preferredCommunicationLanguage>
+                     <v13:alpha2Code>${Req_preferredCommunicationLanguage_alpha2Code}</v13:alpha2Code>
+ 
+                  </v13:preferredCommunicationLanguage>
+                  <!--Optional:-->
+                  
+                 
+                  <v13:legalAddress>
+                     <v13:geographicAddressIdentifier>
+                        <v13:id>1210567</v13:id>
+                        <v13:idContext>
+                           <v13:value>LOM</v13:value>
+                        </v13:idContext>
+                     </v13:geographicAddressIdentifier>
+                  </v13:legalAddress>
+                  
+               </v13:party>
+               <v13:credential>
+                  <v13:credential>
+                     <v13:identifier>${Req_credential_identifier}</v13:identifier>
+                     <v13:documentType>
+                        <v13:value>${Req_documentType_value}</v13:value>
+                     </v13:documentType>
+                     <v13:validFor>
+                        <v13:endTimeStamp>2020-05-07T13:05:45.678-04:00</v13:endTimeStamp>
+                     </v13:validFor>
+                  </v13:credential>
+               </v13:credential>
+               
+            </v12:person>
+            <v12:contact>
+               <v13:contactMedium>
+                  <v13:EMailContact>
+                     <v13:EMailAddress>${Req_EMailAddress}</v13:EMailAddress>
+                  </v13:EMailContact>
+                  </v13:contactMedium>
+                  <v13:contactMedium>
+                  <v13:phoneContact>
+                     <v13:phoneNumber>
+                        <v13:countryPrefix>
+                           <v13:value>${Req_phoneContact_phoneNumber_countryPrefix_value}</v13:value>
+                        </v13:countryPrefix>
+                        <v13:nationalNumber>${Req_nationNumber}</v13:nationalNumber>
+                     </v13:phoneNumber>
+                     <v13:type>
+                        <v13:value>${Req_phoneContact_type_value}</v13:value>
+                     </v13:type>
+                                       
+                  </v13:phoneContact>
+               </v13:contactMedium>
+            </v12:contact>
+            
+            
+         </v12:serviceData>
+      </v12:RequestDataSubmitPersonCreating>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.customermatching.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         <urn:endUserId>ID058127</urn:endUserId>
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataGetDetails version="1.3">
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>ID058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         <urn1:name>${Req_name}</urn1:name>
+         <urn1:firstName>${Req_firstName}</urn1:firstName>
+         <urn1:streetCode>${Req_streetCode}</urn1:streetCode>
+         <urn1:streetName>${Req_streetName}</urn1:streetName>
+         <urn1:houseNumber>${Req_houseNumber}</urn1:houseNumber>
+         <urn1:alphaHouseNumber>${Req_alphaHouseNumber}</urn1:alphaHouseNumber>
+         <urn1:residenceName>${Req_residenceName}</urn1:residenceName>
+         <urn1:blockNumber>${Req_blockNumber}</urn1:blockNumber>
+         <urn1:floorNumber>${Req_floorNumber}</urn1:floorNumber>
+         <urn1:boxNumber>${Req_boxNumber}</urn1:boxNumber>
+         <urn1:zipCode>${Req_zipCode}</urn1:zipCode>
+         <urn1:cityCode>${Req_cityCode}</urn1:cityCode>
+         <urn1:cityName>${Req_cityName}</urn1:cityName>
+         <urn1:countryCode>BEL</urn1:countryCode>
+         <urn1:enterpriseNumber>${Req_enterpriseNumber}</urn1:enterpriseNumber>
+         <urn1:vatCountryCode>BE</urn1:vatCountryCode>
+      </urn1:RequestDataGetDetails>
+   </soapenv:Body>
+</soapenv:Envelope>

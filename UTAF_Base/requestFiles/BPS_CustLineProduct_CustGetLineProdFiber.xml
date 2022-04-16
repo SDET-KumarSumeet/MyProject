@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.custlineproduct.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         
+         <urn:endUserId>id058127</urn:endUserId>
+         
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataCustGetLineProdFiber version="1.1">
+         
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:custId>${Req_custId}</urn1:custId>
+         
+         <urn1:networkType>${Req_networkType}</urn1:networkType>
+         
+         <urn1:subscriptionNbr>${Req_subscriptionNbr}</urn1:subscriptionNbr>
+         
+         <urn1:prodList1>
+            <!--Zero or more repetitions:-->
+            <urn1:prodId>${Req_prodId_1}</urn1:prodId>
+         </urn1:prodList1>
+         
+         <urn1:prodList2>
+            <!--Zero or more repetitions:-->
+            <urn1:prodId>${Req_prodId_1}</urn1:prodId>
+         </urn1:prodList2>
+         <urn1:packInd>${Req_packInd}</urn1:packInd>
+      </urn1:RequestDataCustGetLineProdFiber>
+   </soapenv:Body>
+</soapenv:Envelope>

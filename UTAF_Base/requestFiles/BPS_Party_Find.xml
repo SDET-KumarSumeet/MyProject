@@ -1,0 +1,70 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v3.party.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+          <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>BCO</urn:consumerApplicationId>
+         
+         <urn:endUserId>id058127</urn:endUserId>
+         
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         
+         <urn:propagatedKey>788787</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataFind version="3.1">
+         <urn1:userContext>
+            <urn2:applicationNm>BCO</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:partyRoleCodeList>
+            <!--1 or more repetitions:-->
+            <urn1:roleCode>C</urn1:roleCode>
+         </urn1:partyRoleCodeList>        
+         <urn1:name>${Req_name}</urn1:name>  
+	<urn1:firstName>${Req_firstName}</urn1:firstName>
+         
+         <urn1:phoneticInd>${Req_phoneticInd}</urn1:phoneticInd>
+         
+         <urn1:birthDate>${Req_birthDate}</urn1:birthDate>
+         
+         <urn1:houseNbr>${Req_houseNbr}</urn1:houseNbr>
+         
+         <urn1:alphaHouseNbr>${Req_alphaHouseNbr}</urn1:alphaHouseNbr>
+         
+         <urn1:streetCode>${Req_streetCode}</urn1:streetCode>
+         
+         <urn1:cityCode>${Req_cityCode}</urn1:cityCode>
+         
+         <urn1:countryIso3Code>${Req_countryIso3Code}</urn1:countryIso3Code>
+         
+         <urn1:snNetworkType>${Req_snNetworkType}</urn1:snNetworkType>
+         
+         <urn1:subscriptionNbr>${Req_snNetworkType}</urn1:subscriptionNbr>
+         
+         <urn1:nationalNbr>${Req_nationalNbr}</urn1:nationalNbr>
+         
+         <urn1:nationalNbrCountryIso2Code>${Req_nationalNbrCountryIso2Code}</urn1:nationalNbrCountryIso2Code>
+         
+         <urn1:euroDbId>${Req_euroDbId}</urn1:euroDbId>
+         
+         <urn1:mcsCustId>${Req_mcsCustId}</urn1:mcsCustId>
+         
+         <urn1:wegenerId>${Req_wegenerId}</urn1:wegenerId>
+         
+         <urn1:mcsAccId>${Req_mcsAccId}</urn1:mcsAccId>       
+              
+	<urn1:macroSegmentCodeList>
+            
+            <urn1:macroSegmentCode>${Req_macroSegmentCode}</urn1:macroSegmentCode>
+
+         </urn1:macroSegmentCodeList>
+        
+         <urn1:knownByMcsInd>${Req_knownByMcsInd}</urn1:knownByMcsInd>
+
+      </urn1:RequestDataFind>
+   </soapenv:Body>
+</soapenv:Envelope>

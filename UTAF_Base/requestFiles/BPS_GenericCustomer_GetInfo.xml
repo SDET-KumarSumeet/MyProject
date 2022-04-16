@@ -1,0 +1,49 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.genericcustomer.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         
+         <urn:endUserId>id058127</urn:endUserId>
+         
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataGetInfo version="1.2">
+         
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:custId>${Req_custId}</urn1:custId>
+         
+         <urn1:accId>${Req_accId}</urn1:accId>
+         
+         <urn1:networkType>${Req_networkType}</urn1:networkType>
+         
+         <urn1:subscriptionNbr>${Req_subscriptionNbr}</urn1:subscriptionNbr>
+         
+         <urn1:mcsCustId>${Req_mcsCustId}</urn1:mcsCustId>
+         
+         <urn1:mcsAccId>${Req_mcsAccId}</urn1:mcsAccId>
+         
+         <urn1:nationalNbrCountryIso2Code>${Req_nationalNbrCountryIso2Code}</urn1:nationalNbrCountryIso2Code>
+         
+         <urn1:nationalNbr>${Req_nationalNbr}</urn1:nationalNbr>
+         <!--Zero or more repetitions:-->
+         <urn1:otherReqParam>
+            <urn1:name>${Req_name}</urn1:name>
+            
+            <urn1:value>${Req_value}</urn1:value>
+         </urn1:otherReqParam>
+         <!--Zero or more repetitions:-->
+         <urn1:reqCharacteristic>${Req_reqCharacteristic}</urn1:reqCharacteristic>
+      </urn1:RequestDataGetInfo>
+   </soapenv:Body>
+</soapenv:Envelope>

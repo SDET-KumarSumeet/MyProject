@@ -1,0 +1,23 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Header/>
+<SOAP-ENV:Body>
+<ns2:createCase xmlns:ns2="http://soap.sforce.com/schemas/class/PRX_CaseService">
+<ns2:caseInfo>
+<ContactId xmlns="sobject.enterprise.soap.sforce.com">0033M000004AByV</ContactId>
+<CustomerId_CdbId xmlns="sobject.enterprise.soap.sforce.com">${Req_CustomerId_CdbId}</CustomerId_CdbId>
+<Description xmlns="sobject.enterprise.soap.sforce.com">User summary </Description>
+<DescriptionStructMessage xmlns="sobject.enterprise.soap.sforce.com">title : Mr._SEP_lastName : anand_SEP_firstName : Kiruba_SEP_email : arun@gmail.com_SEP_mobileNumber : _SEP_worksFor : Coplac_SEP_preferredLanguage : EN_SEP_</DescriptionStructMessage>
+<ExternalSource xmlns="sobject.enterprise.soap.sforce.com">MYENT</ExternalSource>
+<Origin xmlns="sobject.enterprise.soap.sforce.com">Web</Origin>
+<PackageSIMCards xmlns="sobject.enterprise.soap.sforce.com">1</PackageSIMCards>
+<Priority xmlns="sobject.enterprise.soap.sforce.com">${Req_Priority}</Priority>
+<ServiceRequestDate xmlns="sobject.enterprise.soap.sforce.com">2020-05-15</ServiceRequestDate>
+<SingleOrBulkRequest xmlns="sobject.enterprise.soap.sforce.com">Single</SingleOrBulkRequest>
+<SourceSystemUser xmlns="sobject.enterprise.soap.sforce.com">50001503</SourceSystemUser>
+<Subject xmlns="sobject.enterprise.soap.sforce.com">Create user arun@gmail.com</Subject>
+<UseCaseType xmlns="sobject.enterprise.soap.sforce.com">MOB_BA_ADDR_CHANGE</UseCaseType>
+<VisibleToCustomer xmlns="sobject.enterprise.soap.sforce.com">${Req_VisibleToCustomer}</VisibleToCustomer>
+</ns2:caseInfo>
+</ns2:createCase>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,4 @@
+custIdOne00000paIdOneYaccIdOne
+custIdTwo00000paIdTwoYaccIdTwo
+custIdThree00000paIdThreeNaccIdThree
+EOF

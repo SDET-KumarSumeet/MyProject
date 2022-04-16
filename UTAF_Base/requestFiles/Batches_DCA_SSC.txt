@@ -1,0 +1,2 @@
+custIdOne|AccessNrOne|V1|OPEN|PAID|currentDate|currentTime00|N|SSC|CDBAUT
+custIdTwo|AccessNrTwo|V1|PSCLOSE|NONPAID|currentDate|currentTime00|Y|SSC|CDBAUT

@@ -1,0 +1,41 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v4="http://api.web.bc/capability/business/b182/services/person/v4" xmlns:v3="http://api.web.bc/capability/business/b182/objects/requestgetperson/v3">
+   <soapenv:Header>
+      <v2:CommonContextRequest>
+         <v2:transaction>
+            <v1:messageId>${Req_corrId}</v1:messageId>
+            <!--Optional:-->
+            <v1:correlationId>${Req_corrId}</v1:correlationId>
+            <v1:conversationId>${Req_conversationId}</v1:conversationId>
+            <v1:dateTimeCreated>${Req_dateTimeCreated}</v1:dateTimeCreated>
+         </v2:transaction>
+      </v2:CommonContextRequest>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v4:RequestDataGetPerson version="4.0">
+         <v4:serviceContext>
+            <!--Optional:-->
+            <v4:scoping>
+               <v4:functionalScope>
+                  <v3:value>${Req_functionalScope}</v3:value>
+               </v4:functionalScope>
+            </v4:scoping>
+            <v4:transactionData>
+               <v4:endUserLanguage>EN</v4:endUserLanguage>
+               <v4:consumerApplication>CDB</v4:consumerApplication>
+            </v4:transactionData>
+         </v4:serviceContext>
+         <v4:serviceData>
+            <v4:personIdentifier>
+               <v3:id>${Req_id}</v3:id>
+               <!--Optional:-->
+               <v3:idScope>
+                  <v3:value>${Req_idScope}</v3:value>
+               </v3:idScope>
+               <v3:idContext>
+                  <v3:value>${Req_idContext}</v3:value>
+               </v3:idContext>
+            </v4:personIdentifier>
+         </v4:serviceData>
+      </v4:RequestDataGetPerson>
+   </soapenv:Body>
+</soapenv:Envelope>

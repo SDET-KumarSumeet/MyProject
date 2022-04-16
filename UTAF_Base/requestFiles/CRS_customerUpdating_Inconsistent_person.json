@@ -1,0 +1,61 @@
+{
+	"serviceContext": {
+		"transactionData": {
+			"transactionId": "786988332482560",
+			"transactionDate": "2021-06-25T14:21:54.914Z",
+			"endUserId": "id867940",
+			"endUserLanguage": "EN",
+			"consumerApplication": "CRS"
+		}
+	},
+	"serviceData": {
+		"customer": {
+			"identifier": {
+				"id": "618953264",
+				"idScope": {
+					"value": "ENT"
+				},
+				"idContext": {
+					"value": "CDB"
+				}
+			},
+			"isRestrictel": false,
+			"charVal": [
+				{
+					"name": "NOTES",
+					"value": "cdbAutoUpdate"
+				},
+				{
+					"name": "EXTRA_ADDR_LINE",
+					"value": ""
+				}
+			],
+			"partyIdentifier": {
+				"personIdentifier": {
+					"id": "618953264",
+					"idScope": {
+						"value": "MSG"
+					},
+					"idContext": {
+						"value": "B182"
+					}
+				}
+			}
+		},
+		"referenceObject": {
+			"person": {
+				"subTitle": "",
+				"identifier": {
+					"id": "1234",
+					"idScope": {
+						"value": "MSG"
+					},
+					"idContext": {
+						"value": "B182"
+					}
+				}
+				
+			}
+		}
+	}
+}

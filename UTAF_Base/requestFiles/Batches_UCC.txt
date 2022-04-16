@@ -1,0 +1,4 @@
+13;3;CDBAuto;
+custIdOne;105;DateOne;OFF;
+custIdTwo;105;DateTwo;ON;
+custIdThree;106;DateThree;ON;

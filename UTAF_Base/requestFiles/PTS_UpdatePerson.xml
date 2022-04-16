@@ -1,0 +1,97 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v41="http://api.web.bc/capability/business/b182/objects/requestupdateperson/v4" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2" xmlns:v4="http://api.web.bc/capability/business/b182/services/person/v4" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1">
+	<soapenv:Header>
+		<v2:CommonContextRequest>
+			<v2:transaction>
+				<v1:messageId>${Req_corrId}</v1:messageId>
+				
+				<v1:correlationId>${Req_corrId}</v1:correlationId>
+				<v1:conversationId>${Req_conversationId}</v1:conversationId>
+				
+				<v1:sequenceNumber>${Req_sequenceNumber}</v1:sequenceNumber>
+				<v1:dateTimeCreated>${Req_dateTimeCreated}</v1:dateTimeCreated>
+			</v2:transaction>
+			
+			<v2:consumerTransaction>
+				<v11:businessTransactionId>${Req_businessTransactionId}</v11:businessTransactionId>
+				
+				<v11:dateTimeCreated>${Req_dateTimeCreated}</v11:dateTimeCreated>
+			</v2:consumerTransaction>
+		</v2:CommonContextRequest>
+	</soapenv:Header>
+	<soapenv:Body>
+		<v4:RequestDataUpdatePerson version="4.0" xmlns:ns21="http://api.web.bc/capability/business/b182/objects/responsepullpersonupdated/v4" xmlns:ns20="http://api.web.bc/capability/business/b182/objects/responsepullpersonmerged/v3" xmlns:ns19="http://api.web.bc/capability/business/b182/objects/responsepullpersondeleted/v3" xmlns:ns18="http://api.web.bc/capability/business/b182/objects/responsepullpersoncreated/v4" xmlns:ns17="http://api.web.bc/capability/business/b182/objects/responsegetperson/v4" xmlns:ns16="http://api.web.bc/capability/business/b182/objects/responsefindperson/v3" xmlns:ns15="http://api.web.bc/capability/business/b182/objects/responsecreateperson/v3" xmlns:ns14="http://api.web.bc/capability/business/b182/objects/requestpullpersonevents/v3" xmlns:ns13="http://api.web.bc/capability/business/b182/objects/requestgetperson/v3" xmlns:ns12="http://api.web.bc/capability/business/b182/objects/requestfindperson/v4" xmlns:ns11="http://api.web.bc/capability/business/b182/objects/requestcreateperson/v4" xmlns:ns10="http://api.web.bc/capability/business/b182/objects/requestacknowledgepersonevents/v3" xmlns:ns9="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns:ns8="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns7="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns6="http://api.web.bc/api/schema/common/fault/v1">
+			<v4:serviceContext>
+				<v4:transactionData>
+					<v4:endUserId>id058127</v4:endUserId>
+					<v4:endUserLanguage>EN</v4:endUserLanguage>
+					<v4:consumerApplication>CDB</v4:consumerApplication>
+				</v4:transactionData>
+			</v4:serviceContext>
+			<v4:serviceData>
+				<v4:person>
+					<v41:birthDate dataQualityMask="S" updateAction="modify">${Req_birthDate}</v41:birthDate>
+					<v41:name>
+						<v41:firstName dataQualityMask="S" updateAction="modify">${Req_firstName}</v41:firstName>
+						<v41:preferredFirstName updateAction="modify">${Req_preferredFirstName}</v41:preferredFirstName>
+						<v41:lastName dataQualityMask="S" updateAction="modify">${Req_lastName}</v41:lastName>
+					</v41:name>
+					<v41:title>
+						<v41:value updateAction="modify">${Req_title_value}</v41:value>
+					</v41:title>
+					<v41:gender updateAction="modify">
+						<v41:value dataQualityMask="S" updateAction="modify">${Req_gender_value}</v41:value>
+					</v41:gender>
+					<v41:party>
+						<v41:legalLanguage>
+							<v41:alpha2Code dataQualityMask="S">${Req_legalLanguage_alpha2Code}</v41:alpha2Code>
+						</v41:legalLanguage>
+					
+						<v41:preferredCommunicationLanguage>
+							<v41:alpha2Code dataQualityMask="S" >${Req_preferredCommunicationLanguage_alpha2Code}</v41:alpha2Code>
+						</v41:preferredCommunicationLanguage>
+						
+						<v41:legalAddress>
+							<v41:geographicAddressIdentifier>
+								<v41:id dataQualityMask="S">${Req_legalAddress_geographicAddressIdentifier_id}</v41:id>
+								<v41:idContext>
+									<v41:value>${Req_legalAddress_idContext_value}</v41:value>
+								</v41:idContext>
+							</v41:geographicAddressIdentifier>
+						</v41:legalAddress>
+						<v41:externalPartyRole updateAction="${Req_externalPartyRole_updateAction}">
+                     <v41:type>
+                        <v41:value>${Req_externalPartyRole_value}</v41:value>
+                     </v41:type>
+                     <v41:party>
+                        <v41:organisation>
+                           <v41:identifier>
+                              <v41:id>${Req_organisationId}</v41:id>
+                              <v41:idScope>
+                                 <v41:value>${Req_organisationId_idScope}</v41:value>
+                              </v41:idScope>
+                              <v41:idContext>
+                                 <v41:value>${Req_organisationId_idContext}</v41:value>
+                              </v41:idContext>
+                           </v41:identifier>
+                        </v41:organisation>
+                     </v41:party>
+                     <v41:actingAs>
+                        <v41:value>${Req_externalPartyRole_actingAs}</v41:value>
+                        </v41:actingAs>
+						</v41:externalPartyRole>
+					</v41:party>
+					<v41:identifier>
+						<v41:id >${Req_identifier_id}</v41:id>
+						<v41:idScope>
+							<v41:value>ENT</v41:value>
+						</v41:idScope>
+						<v41:idContext>
+							<v41:value>B182</v41:value>
+						</v41:idContext>
+					</v41:identifier>
+				</v4:person>
+				<v4:sourceNote>ENG</v4:sourceNote>
+			</v4:serviceData>
+		</v4:RequestDataUpdatePerson>
+	</soapenv:Body>
+</soapenv:Envelope>

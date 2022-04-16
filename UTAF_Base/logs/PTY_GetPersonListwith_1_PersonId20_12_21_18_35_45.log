@@ -1,0 +1,15 @@
+2021-12-20 18:35:46,138  INFO UTAFLog.java [main] UTAFLog:9 - Using UTAF : 1.0.93
+2021-12-20 18:35:46,138  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:35:46,138  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:35:46,404  INFO UTAFLog.java [main] UTAFLog:9 - In afCheckPreCondition
+2021-12-20 18:35:46,404  INFO UTAFLog.java [main] UTAFLog:9 - Preconditions satisfied
+2021-12-20 18:35:46,404  INFO UTAFLog.java [main] UTAFLog:9 - Out afCheckPreCondition
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.USER is ptsi_210309.jks
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.PASS is pts66
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.GetPersonList.URL is https://apigw-itt.bc/b182-01/person/flv000568/v1
+2021-12-20 18:35:46,406  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:35:46,407  INFO UTAFLog.java [main] UTAFLog:9 - In cfGlSerSendRequest
+2021-12-20 18:35:46,407  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================URL===============================================
+2021-12-20 18:35:46,407  INFO UTAFLog.java [main] UTAFLog:9 - https://apigw-itt.bc/b182-01/person/flv000568/v1

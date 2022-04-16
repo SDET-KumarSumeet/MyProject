@@ -1,0 +1,237 @@
+2021-12-20 18:41:52,532  INFO UTAFLog.java [main] UTAFLog:9 - Using UTAF : 1.0.93
+2021-12-20 18:41:52,533  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:41:52,533  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:41:52,787  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:52,788  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:53,924  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,312  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,313  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:54,313  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,313  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:54,313  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,313  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:54,314  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,314  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:54,314  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,639  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,640  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:54,640  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,640  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:54,640  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,640  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:54,641  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,641  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:54,641  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:54,966  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,300  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,301  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:55,301  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,301  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:55,301  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,302  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:55,302  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,302  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:55,302  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,632  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,633  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:55,633  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,633  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:55,633  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,633  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:55,634  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,634  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:55,634  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,988  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,988  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:55,988  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:55,989  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,335  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:56,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:56,336  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:56,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:56,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:56,337  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,337  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:56,337  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,655  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:56,655  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:56,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:56,657  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,003  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:57,004  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,005  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:57,005  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,335  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,335  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:57,336  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:57,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:57,336  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,337  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:57,337  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,654  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,654  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:57,655  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:57,655  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:57,655  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:57,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:57,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:57,656  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,014  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,014  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:58,014  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:58,015  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,341  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:58,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:58,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,676  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,677  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:58,677  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:58,677  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:58,677  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,678  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:58,678  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:58,678  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:58,678  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,023  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,023  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:59,023  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,024  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:59,024  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,024  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:59,024  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,024  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:59,025  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,374  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,375  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:59,375  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,375  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:59,375  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,375  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:59,376  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,376  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:59,376  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:41:59,702  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,031  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Value of PTY_FetchPersonIds is select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetElementProperty : Pass
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - Query =select * from partydb pd where pd.end_tm is null and pd.party_type_cd='10070001' OFFSET 20 ROWS FETCH NEXT 1 ROWS ONLY
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.CONNURL is jdbc:oracle:thin:@ldap://OIDP.glb.bc:389/PTY70I,cn=OracleContext,dc=bc
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.USER is id867940
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.DB.PTY.PASS is Mars#700
+2021-12-20 18:42:00,032  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,389  INFO UTAFLog.java [main] UTAFLog:9 - In afCheckPreCondition
+2021-12-20 18:42:00,389  INFO UTAFLog.java [main] UTAFLog:9 - Preconditions satisfied
+2021-12-20 18:42:00,390  INFO UTAFLog.java [main] UTAFLog:9 - Out afCheckPreCondition
+2021-12-20 18:42:00,391  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.USER is ptsi_210309.jks
+2021-12-20 18:42:00,391  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,392  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.PASS is pts66
+2021-12-20 18:42:00,392  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,392  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.GetPersonList.URL is https://apigw-itt.bc/b182-01/person/flv000568/v1
+2021-12-20 18:42:00,392  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:42:00,394  INFO UTAFLog.java [main] UTAFLog:9 - In cfGlSerSendRequest
+2021-12-20 18:42:00,395  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================URL===============================================
+2021-12-20 18:42:00,395  INFO UTAFLog.java [main] UTAFLog:9 - https://apigw-itt.bc/b182-01/person/flv000568/v1
+2021-12-20 18:42:00,447  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================Request===========================================
+2021-12-20 18:42:00,447  INFO UTAFLog.java [main] UTAFLog:9 - <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v12="http://api.web.bc/capability/business/b182-01/services/person/flv000568/v1" xmlns:v13="http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2">
+<soapenv:Header>
+<v2:CommonContextRequest>
+<v2:transaction>
+<v1:messageId>509980804</v1:messageId>
+<v1:conversationId>509980804</v1:conversationId>
+<v1:dateTimeCreated>2021-12-20</v1:dateTimeCreated>
+</v2:transaction>
+</v2:CommonContextRequest>
+</soapenv:Header>
+<soapenv:Body>
+<v12:RequestDataGetPersonList>
+<v12:serviceContext>
+<v12:transactionData>
+<v12:endUserId>609496301</v12:endUserId>
+<v12:endUserLanguage>EN</v12:endUserLanguage>
+<v12:consumerApplication>SHE</v12:consumerApplication>
+</v12:transactionData>
+</v12:serviceContext>
+<v12:serviceData>
+<v12:personIdentifier>
+<v13:id>487</v13:id>
+<v13:idScope>
+<v13:value>ENT</v13:value>
+</v13:idScope>
+<v13:idContext>
+<v13:value>B182</v13:value>
+</v13:idContext>
+</v12:personIdentifier>
+<v12:personIdentifier>
+<v13:id>487</v13:id>
+</v12:personIdentifier>
+</v12:serviceData>
+</v12:RequestDataGetPersonList>
+</soapenv:Body>
+</soapenv:Envelope>
+
+2021-12-20 18:42:01,683  INFO UTAFLog.java [main] UTAFLog:9 - Request posted successfully
+2021-12-20 18:42:01,683  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================Response===========================================
+2021-12-20 18:42:01,794  INFO UTAFLog.java [main] UTAFLog:9 - Send request to get person details
+2021-12-20 18:42:01,796  INFO UTAFLog.java [main] UTAFLog:9 - Out cfGlSerSendRequest

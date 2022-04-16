@@ -1,0 +1,140 @@
+{
+    "serviceData": {
+      "customerCommunicationRequest": {
+        "customerCommunicationRole": [
+          {
+            "partyRoleIdentifier": {
+              "customerIdentifier": {
+                "idContext": {
+                  "value": "CDBF"
+                },
+                "idScope": {
+                  "value": "ENT"
+                },
+                "id": "1004"
+              }
+            },
+            "name": {
+              "value": "SENT_TO_PRIMARY"
+            },
+            "contactMediumIdentifier": [
+              {
+                "phoneContactIdentifier": {
+                  "idContext": {
+                    "value": "CVM"
+                  },
+                  "idScope": {
+                    "value": "MSG"
+                  },
+                  "id": "0d92101c-fb32-48eb-bf21-e3322c3e8aa2"
+                }
+              }
+            ]
+          },
+          {
+            "partyRoleIdentifier": {
+              "employeeIdentifier": {
+                "idContext": {
+                  "value": "SAP"
+                },
+                "idScope": {
+                  "value": "ENT"
+                },
+                "id": "ID977154"
+              }
+            },
+            "name": {
+              "value": "SUBMITTED_BY"
+            },
+            "applicationIdentifier": {
+              "idContext": {
+                "value": "ARIS"
+              },
+              "idScope": {
+                "value": "ENT"
+              },
+              "id": "CVM"
+            }
+          }
+        ],
+        "communicationTemplate": "INF_GeneralTemplate_SMS",
+        "channelClassification": {
+          "value": "BCC0024"
+        },
+        "charVal": [
+          {
+            "characteristicName": "customerSegment",
+            "value": "RES"
+          }
+        ],
+        "language": {
+          "alpha2Code": "EN"
+        },
+        "communicationTemplateParameterGroup": {
+          "type": "Content",
+          "communicationTemplateParameter": [
+            {
+              "characteristicName": "PrimaryCustomerFirstName",
+              "value": "Trinette"
+            },
+            {
+              "characteristicName": "PrimaryCustomerLastName",
+              "value": "Melberg"
+            },
+            {
+              "characteristicName": "CallDate",
+              "value": "18/01/2021 11:59:46"
+            },
+            {
+              "characteristicName": "URL",
+              "value": "https://www.proximus.be"
+            }
+          ]
+        }
+      },
+      "referenceObjects": {
+        "phoneContact": [
+          {
+            "identifier": {
+              "idContext": {
+                "value": "CVM"
+              },
+              "idScope": {
+                "value": "MSG"
+              },
+              "id": "0d92101c-fb32-48eb-bf21-e3322c3e8aa2"
+            },
+            "phoneNumber": {
+              "nationalNumber": "471111111",
+              "countryPrefix": {
+                "value": "32"
+              }
+            },
+            "isPreferred": true
+          }
+        ]
+      },
+                    "referenceObjects": {
+        "phoneContact": [
+          {
+            "identifier": {
+              "idContext": {
+                "value": "CVM"
+              },
+              "idScope": {
+                "value": "MSG"
+              },
+              "id": "0d92101c-fb32-48eb-bf21-e3322c3e8aa3"
+            },
+            "phoneNumber": {
+              "nationalNumber": "471111111",
+              "countryPrefix": {
+                "value": "32"
+              }
+            },
+            "isPreferred": true
+          }
+        ]
+      }
+    }
+  }

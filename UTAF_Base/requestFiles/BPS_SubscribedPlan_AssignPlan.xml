@@ -1,0 +1,82 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.subscribedplan.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         <urn:endUserId>id000000</urn:endUserId>
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataAssignPlan version="1.1">
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id000000</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:planType>${Req_planType}</urn1:planType>
+         
+         <urn1:planId>${Req_planId}</urn1:planId>
+         
+         <urn1:custId>${Req_custId}</urn1:custId>
+         
+         <urn1:accId>${Req_accId}</urn1:accId>
+         
+         <urn1:subscriptionNbr>${Req_subscriptionNbr}</urn1:subscriptionNbr>
+         
+         <urn1:networkType>${Req_networkType}</urn1:networkType>
+         
+         <urn1:sopId>${Req_sopId}</urn1:sopId>
+         
+         <urn1:assignProdId>${Req_assignProdId}</urn1:assignProdId>
+         
+         <urn1:ptyGroupId>${Req_ptyGroupId}</urn1:ptyGroupId>
+         
+         <urn1:lineGroupId>${Req_lineGroupId}</urn1:lineGroupId>
+         
+         <urn1:packReferenceId>${Req_packReferenceId}</urn1:packReferenceId>
+         
+         <urn1:startDate>${Req_startDate}</urn1:startDate>
+         
+         <urn1:endDate>${Req_endDate}</urn1:endDate>
+         
+         <urn1:chargedAccountId>${Req_chargedAccountId}</urn1:chargedAccountId>
+         
+         <urn1:chargedSubscriptionNbr>${Req_chargedSubscriptionNbr}</urn1:chargedSubscriptionNbr>
+         
+         <urn1:chargedNetworkType>${Req_chargedNetworkType}</urn1:chargedNetworkType>
+         
+         <urn1:OTChargeInd>${Req_OTChargeInd}</urn1:OTChargeInd>
+         
+         <urn1:subscrDiscountPct>${Req_subscrDiscountPct}</urn1:subscrDiscountPct>
+         
+         <urn1:discountPct>${Req_discountPct}</urn1:discountPct>
+         
+         <urn1:secondPayerCustId>${Req_secondPayerCustId}</urn1:secondPayerCustId>
+         
+         <urn1:secondPayerAccId>${Req_secondPayerAccId}</urn1:secondPayerAccId>
+         
+         <urn1:NAUsage>${Req_NAUsage}</urn1:NAUsage>
+         
+         <urn1:showBNumberInd>${Req_showBNumberInd}</urn1:showBNumberInd>
+         <urn1:sendToBilling>${Req_sendToBilling}</urn1:sendToBilling>
+         <!--Zero or more repetitions:-->
+         <urn1:UPNumberRange>
+            
+            <urn1:bNumberRange>${Req_bNumberRange}</urn1:bNumberRange>
+            
+            <urn1:numberCategoryCode>${Req_numberCategoryCode}</urn1:numberCategoryCode>
+         </urn1:UPNumberRange>
+         <!--Zero or more repetitions:-->
+         <urn1:IPNumberRange>
+            
+            <urn1:aNumber>${Req_aNumber}</urn1:aNumber>
+            
+            <urn1:bNumberRange>${Req_bNumberRange}</urn1:bNumberRange>
+         </urn1:IPNumberRange>
+      </urn1:RequestDataAssignPlan>
+   </soapenv:Body>
+</soapenv:Envelope>

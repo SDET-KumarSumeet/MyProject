@@ -1,0 +1,92 @@
+ {
+	"serviceContext": {
+		"transactionData": {
+			"transactionId": "618535420166144",
+			"transactionDate": "2021-07-02T11:53:06.559Z",
+			"endUserId": "id867940",
+			"endUserLanguage": "EN",
+			"consumerApplication": "CRS"
+		}
+	},
+	"serviceData": {
+		"customer": {
+			"identifier": {
+				"id": "12000322",
+				"idScope": {
+					"value": "ENT"
+				},
+				"idContext": {
+					"value": "CDB"
+				}
+			},
+			"isRestrictel": true,
+			"charVal": [
+				{
+					"name": "NOTES",
+					"value": "bucbubcu"
+				},
+				{
+					"name": "EXTRA_ADDR_LINE",
+					"value": ""
+				}
+			]
+			
+		},
+		"referenceObject": {
+			"organisation": {
+				"name": {
+					"name": "CALHOUNBUBUBUCBUB",
+					"printName": "CALHOUN"
+				},
+				"party": {
+					"isSubjectToVAT": true,
+					"foundingDate": "1990-11-17",
+					"VATNumber": {
+						"countryCode": {
+							"alpha2Code": "BE"
+						},
+						"VATNumber": "0200065765"
+					},
+					"legalForm": {
+						"value": "00"
+					},
+					"NACECode": {
+						"value": "79901"
+					},
+					"legalLanguage": {
+						"alpha2Code": "NL"
+					},
+					"preferredCommunicationLanguage": {
+						"alpha2Code": "NL"
+					},
+					"legalAddress": {
+						"geographicAddressIdentifier": {
+							"id": "12345",
+							"idScope": {
+								"value": "ENT"
+							},
+							"idContext": {
+								"value": "LOM"
+							}
+						}
+						
+					},
+					"validFor": {
+							"startTimeStamp": "2017-01-03T00:00:00.0Z",
+							"endTimeStamp": ""
+						}
+				},
+				"identifier": {
+					"id": "1234",
+					"idScope": {
+						"value": "MSG"
+					},
+					"idContext": {
+						"value": "B182"
+					}
+				},
+				"subTitle": ""
+			}
+		}
+	}
+}

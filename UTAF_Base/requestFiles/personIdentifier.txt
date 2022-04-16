@@ -1,0 +1,12 @@
+,
+			"partyIdentifier": {
+				"personIdentifier": {
+					"id": "${Req_personIdentifier_id}",
+					"idScope": {
+						"value": "${Req_personIdentifier_idScope}"
+					},
+					"idContext": {
+						"value": "${Req_personIdentifier_idContext}"
+					}
+				}
+			}

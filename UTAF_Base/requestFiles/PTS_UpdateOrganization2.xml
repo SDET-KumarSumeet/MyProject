@@ -1,0 +1,70 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v3="http://api.web.bc/capability/business/b182/services/organisation/v3" xmlns:v21="http://api.web.bc/capability/business/b182/objects/requestupdateorganisation/v2">
+   <soapenv:Header>
+      <v2:CommonContextRequest>
+         <v2:transaction>
+            <v1:messageId>${Req_corrId}</v1:messageId>
+            <v1:correlationId>${Req_corrId}</v1:correlationId>
+            <v1:conversationId>${Req_conversationId}</v1:conversationId>
+            <v1:sequenceNumber>${Req_sequenceNumber}</v1:sequenceNumber>
+            <v1:dateTimeCreated>${Req_dateTimeCreated}</v1:dateTimeCreated>
+         </v2:transaction>
+         <v2:consumerTransaction>
+            <v11:businessTransactionId>${Req_businessTransactionId}</v11:businessTransactionId>
+            <v11:dateTimeCreated>${Req_dateTimeCreated}</v11:dateTimeCreated>
+         </v2:consumerTransaction>
+      </v2:CommonContextRequest>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v3:RequestDataUpdateOrganisation version="3.0">
+         <v3:serviceContext>
+            <v3:transactionData>
+               <v3:endUserId>id058127</v3:endUserId>
+               <v3:endUserLanguage>EN</v3:endUserLanguage>
+               <v3:consumerApplication>CDB</v3:consumerApplication>
+            </v3:transactionData>
+         </v3:serviceContext>
+         <v3:serviceData updateAction="modify">
+            <v3:organisation updateAction="modify">
+               <v21:identifier updateAction="modify">
+                  <v21:id updateAction="modify">${Req_ogranisation_identifier_id}</v21:id>
+                  <v21:idScope updateAction="modify">                  
+                     <v21:value updateAction="modify">ENT</v21:value>                    
+                  </v21:idScope>
+                  <v21:idContext updateAction="modify">                    
+                     <v21:value updateAction="modify">B182</v21:value>                     
+                  </v21:idContext>
+               </v21:identifier>
+               <v21:party updateAction="modify">
+                  <v21:relationship updateAction="add">                    
+                     <v21:type updateAction="add">                       
+                        <v21:value updateAction="add">${Req_relationship_type_value}</v21:value>                       
+                     </v21:type>
+                     <v21:status updateAction="add">
+                        <v21:code updateAction="add">                         
+                           <v21:value updateAction="add">${Req_relationship_status_code_value}</v21:value>                          
+                        </v21:code>                        
+                     </v21:status>
+                     <v21:charVal updateAction="modify">
+                        <v21:characteristicName updateAction="modify">${Req_characteristicName}</v21:characteristicName>                        
+                        <v21:value updateAction="modify">${Req_charVal_value}</v21:value>                        
+                     </v21:charVal>
+                     <v21:party updateAction="modify">
+                        <v21:person updateAction="modify">
+                           <v21:identifier updateAction="modify">
+                              <v21:id updateAction="modify">${Req_Person_identifier_id}</v21:id>
+                              <v21:idScope updateAction="modify">     
+                                 <v21:value updateAction="modify">ENT</v21:value>
+                              </v21:idScope>
+                              <v21:idContext updateAction="modify">
+                                 <v21:value updateAction="modify">B182</v21:value>
+                              </v21:idContext>
+                           </v21:identifier>
+                        </v21:person>
+                     </v21:party>
+                  </v21:relationship>
+               </v21:party>
+            </v3:organisation>
+         </v3:serviceData>
+      </v3:RequestDataUpdateOrganisation>
+   </soapenv:Body>
+</soapenv:Envelope>

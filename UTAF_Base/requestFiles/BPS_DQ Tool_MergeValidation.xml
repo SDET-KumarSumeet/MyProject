@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.dqtool.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         <!--Optional:-->
+         <urn:endUserId>id058127</urn:endUserId>
+         <!--Optional:-->
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         <!--Optional:-->
+         <urn:propagatedKey>1</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataMergeValidation version="1.0">
+         <urn1:userContext>
+            <urn2:applicationNm>BCO-DQT</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         <urn1:sourceCustId>${Req_sourceCustId}</urn1:sourceCustId>
+         <urn1:targetCustId>${Req_targetCustId}</urn1:targetCustId>
+      </urn1:RequestDataMergeValidation>
+   </soapenv:Body>
+</soapenv:Envelope>

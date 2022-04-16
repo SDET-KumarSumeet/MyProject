@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v2.deductionplanline.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+        <urn:consumerApplicationId>BPS</urn:consumerApplicationId>
+         <urn:endUserId>id058127</urn:endUserId>
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataFind version="2.0">
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:partyId>${Req_partyId}</urn1:partyId>
+         
+         <urn1:billingAccountId>${Req_billingAccountId}</urn1:billingAccountId>
+         
+         <urn1:paymentAgreementId>${Req_paymentAgreementId}</urn1:paymentAgreementId>
+         
+         <urn1:networkType>${Req_networkType}</urn1:networkType>
+         
+         <urn1:subscriptionNbr>${Req_subscriptionNbr}</urn1:subscriptionNbr>
+         
+         <urn1:scopeSalesOrderProcessId>${Req_scopeSalesOrderProcessId}</urn1:scopeSalesOrderProcessId>
+         
+         <urn1:scopeAssignProductId>${Req_scopeAssignProductId}</urn1:scopeAssignProductId>
+         
+         <urn1:partyGroupId>${Req_partyGroupId}</urn1:partyGroupId>
+         
+         <urn1:lineGroupId>${Req_lineGroupId}</urn1:lineGroupId>
+         
+         <urn1:packReferenceId>${Req_packReferenceId}</urn1:packReferenceId>
+         
+         <urn1:planId>${Req_planId}</urn1:planId>
+         <urn1:returnAllDPsInd>${Req_returnAllDPsInd}</urn1:returnAllDPsInd>
+         
+         <urn1:pageNbr>${Req_pageNbr}</urn1:pageNbr>
+      </urn1:RequestDataFind>
+   </soapenv:Body>
+</soapenv:Envelope>

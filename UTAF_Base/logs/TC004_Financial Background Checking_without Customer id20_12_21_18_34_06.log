@@ -1,0 +1,23 @@
+2021-12-20 18:34:07,080  INFO UTAFLog.java [main] UTAFLog:9 - Using UTAF : 1.0.93
+2021-12-20 18:34:07,080  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : TC004_Financial Background Checking_without Customer id
+2021-12-20 18:34:07,081  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : TC004_Financial Background Checking_without Customer id
+2021-12-20 18:34:07,342  INFO UTAFLog.java [main] UTAFLog:9 - In afCheckPreCondition
+2021-12-20 18:34:07,342  INFO UTAFLog.java [main] UTAFLog:9 - Preconditions satisfied
+2021-12-20 18:34:07,342  INFO UTAFLog.java [main] UTAFLog:9 - Out afCheckPreCondition
+2021-12-20 18:34:07,342  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.BPS.CDB.USER is id972820
+2021-12-20 18:34:07,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:34:07,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.BPS.CDB.PASS is bco852
+2021-12-20 18:34:07,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:34:07,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.BPS_GENERIC.CDB.URL is http://soassgi.bc:10000/SSG/services/BelgacomStandardRouter/
+2021-12-20 18:34:07,343  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:34:07,347 ERROR UTAFLog.java [main] UTAFLog:17 - Error in reusableFunctions : Error In reusable Functions - Invalid Step : afSendRequestWithoutRequestModify
+java.lang.Exception: Error In reusable Functions - Invalid Step : afSendRequestWithoutRequestModify
+	at com.infosys.UTAF.UTAFDriverBridge2.reusableFunctions(UTAFDriverBridge2.java:351)
+	at com.infosys.UTAF.UTAFRead2.main(UTAFRead2.java:579)
+
+2021-12-20 18:34:07,347  INFO UTAFLog.java [main] UTAFLog:9 - cfGlReport
+2021-12-20 18:34:07,347  INFO UTAFLog.java [main] UTAFLog:9 - Error In reusable Functions - Invalid Step : afSendRequestWithoutRequestModify
+java.lang.Exception: Error In reusable Functions - Invalid Step : afSendRequestWithoutRequestModify
+	at com.infosys.UTAF.UTAFDriverBridge2.reusableFunctions(UTAFDriverBridge2.java:351)
+	at com.infosys.UTAF.UTAFRead2.main(UTAFRead2.java:579)
+

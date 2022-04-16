@@ -1,0 +1,46 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <ns4:CommonContextRequest xmlns:ns4="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns6="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns="http://api.web.bc/capability/business/b182-01/services/personupdating/flv000164/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns8="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns7="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns9="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns2="http://api.web.bc/capability/business/b182-01/objects/requestsubmitpersonupdating/flv000164/v1" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/transaction/v1">
+         <ns4:transaction>
+            <ns3:messageId>22ee3539-9e6d-4242-849b-5fcdf44d9bac</ns3:messageId>
+            <ns3:correlationId>1efc7aa2-bd95-401c-87f9-f223173df138</ns3:correlationId>
+            <ns3:conversationId>6e3be7f0-3093-4ac4-ab91-3cef2698a816</ns3:conversationId>
+            <ns3:dateTimeCreated>2020-10-24T16:15:11.007+02:00</ns3:dateTimeCreated>
+         </ns4:transaction>
+      </ns4:CommonContextRequest>
+   </soap:Header>
+   <soap:Body>
+      <RequestDataSubmitPersonUpdating xmlns="http://api.web.bc/capability/business/b182-01/services/personupdating/flv000164/v1" xmlns:ns6="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns8="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns7="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns9="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns2="http://api.web.bc/capability/business/b182-01/objects/requestsubmitpersonupdating/flv000164/v1" xmlns:ns4="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/transaction/v1">
+         <serviceContext>
+            <transactionData>
+               <endUserLanguage>EN</endUserLanguage>
+               <consumerApplication>DOF</consumerApplication>
+            </transactionData>
+         </serviceContext>
+         <serviceData>
+            <person>
+               <ns2:name>
+                  <ns2:firstName>${Req_firstName}</ns2:firstName>
+                  <ns2:lastName>${Req_lastName}</ns2:lastName>
+               </ns2:name>
+               <ns2:title>
+                  <ns2:value>${Req_title}</ns2:value>
+               </ns2:title>
+               <ns2:birthDate>${Req_dateOfBirth}</ns2:birthDate>
+               <ns2:gender>
+                  <ns2:value>${Req_gender}</ns2:value>
+               </ns2:gender>
+               <ns2:identifier>
+                  <ns2:id>${Req_partyId}</ns2:id>
+                  <ns2:idScope>
+                     <ns2:value>ENT</ns2:value>
+                  </ns2:idScope>
+                  <ns2:idContext>
+                     <ns2:value>B182</ns2:value>
+                  </ns2:idContext>
+               </ns2:identifier>
+            </person>
+         </serviceData>
+      </RequestDataSubmitPersonUpdating>
+   </soap:Body>
+</soap:Envelope>

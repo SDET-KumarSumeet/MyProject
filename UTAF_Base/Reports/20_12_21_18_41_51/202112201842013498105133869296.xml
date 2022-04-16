@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header>
+    <ns6:CommonContextResponse xmlns="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns10="http://api.web.bc/capability/business/b182-01/services/person/flv000568/v1" xmlns:ns2="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns4="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:ns6="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns7="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns:ns8="http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1" xmlns:ns9="http://api.web.bc/capability/business/b182-01/objects/responsegetpersonlist/flv000568/v1">
+      <ns6:transaction>
+        <ns5:messageId>509980804</ns5:messageId>
+        <ns5:correlationId>913a0469-b3ce-42c1-9bf0-0cc90b148cc2</ns5:correlationId>
+        <ns5:conversationId>509980804</ns5:conversationId>
+      </ns6:transaction>
+      <ns6:serviceStatus>
+        <ns4:statusCode>InvalidInput</ns4:statusCode>
+        <ns4:statusDetailCode>303:Parsing request-XML failed : cvc-complex-type.2.4.b: The content of element 'v12:personIdentifier' is not complete. One of '{"http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1":idScope, "http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1":idContext}' is expected.</ns4:statusDetailCode>
+      </ns6:serviceStatus>
+    </ns6:CommonContextResponse>
+  </soapenv:Header>
+  <soapenv:Body>
+    <ns10:ResponseDataGetPersonList xmlns="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns10="http://api.web.bc/capability/business/b182-01/services/person/flv000568/v1" xmlns:ns2="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns4="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:ns6="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns7="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns:ns8="http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1" xmlns:ns9="http://api.web.bc/capability/business/b182-01/objects/responsegetpersonlist/flv000568/v1">
+      <ns10:serviceContext/>
+      <ns10:serviceData>
+        <ns10:itemCount>0</ns10:itemCount>
+      </ns10:serviceData>
+    </ns10:ResponseDataGetPersonList>
+  </soapenv:Body>
+</soapenv:Envelope>

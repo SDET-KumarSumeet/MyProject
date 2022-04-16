@@ -1,0 +1,70 @@
+{
+	"serviceContext": {
+		"transactionData": {
+			"transactionId": "${Req_transactionId}",
+			"transactionDate": "${Req_transactionDate}",
+			"endUserId": "${Req_endUserId}",
+			"endUserLanguage": "${Req_endUserLanguage}",
+			"consumerApplication": "${Req_consumerApplication}"
+		}
+	},
+	"serviceData": {
+		"customer": {
+			"identifier": {
+				"id": "${Req_customer_identifier_id}",
+				"idScope": {
+					"value": "${Req_customer_identifier_idScope}"
+				},
+				"idContext": {
+					"value": "${Req_customer_identifier_idContext}"
+				}
+			},
+			"isRestrictel": ${Req_isRestrictel},
+			"charVal": [
+				{
+					"name": "NOTES",
+					"value": "${Req_NOTES}"
+				},
+				{
+					"name": "EXTRA_ADDR_LINE",
+					"value": "${Req_EXTRA_ADDR_LINE}"
+				}
+			]@personIdentifier
+			
+		},
+		"referenceObject": {
+			"${Req_Refobj_person_or_organisation}": {
+				"subTitle": "${Req_subTitle}",
+				"party": {
+					"foundingDate": "${Req_party_foundingDate}",
+					"isSubjectToVAT": ${Req_isSubjectToVAT},
+					"VATNumber": {
+						"countryCode": {
+							"alpha2Code": "${Req_VATNumber_countryCode_alpha2Code}"
+						},
+						"VATNumber": "${Req_VATNumber}"
+					},
+					"NACECode": {
+						"value": "${Req_NACECode_value}"
+					},
+					"legalLanguage": {
+						"alpha2Code": "${Req_legalLanguage_alpha2Code}"
+					},
+					"preferredCommunicationLanguage": {
+						"alpha2Code": "${Req_communicationLanguage_alpha2Code}"
+					}
+				},
+			"identifier": {
+					"id": "1234",
+					"idScope": {
+						"value": "MSG"
+					},
+					"idContext": {
+						"value": "B182"
+					}
+				}
+				
+			}
+		}
+	}
+}

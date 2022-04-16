@@ -1,0 +1,113 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v4="http://api.web.bc/capability/business/b182/services/person/v4" xmlns:v41="http://api.web.bc/capability/business/b182/objects/requestcreateperson/v4">
+        <soapenv:Header>
+      <v2:CommonContextRequest>
+         <v2:transaction>
+            <v1:messageId>${Req_corrId}</v1:messageId>
+            
+            <v1:correlationId>${Req_corrId}</v1:correlationId>
+            <v1:conversationId>${Req_conversationId}</v1:conversationId>
+            
+            <v1:sequenceNumber>${Req_sequenceNumber}</v1:sequenceNumber>
+            <v1:dateTimeCreated>${Req_dateTimeCreated}</v1:dateTimeCreated>
+         </v2:transaction>
+         <v2:consumerTransaction>
+            <v11:businessTransactionId>${Req_businessTransactionId}</v11:businessTransactionId>
+            
+            <v11:dateTimeCreated>${Req_dateTimeCreated}</v11:dateTimeCreated>
+         </v2:consumerTransaction>         
+      </v2:CommonContextRequest>
+   </soapenv:Header><soapenv:Body>
+      <v4:RequestDataCreatePerson version="3.0">
+         <v4:serviceContext>
+            <v4:transactionData>
+               
+               <v4:endUserId>id058127</v4:endUserId>
+               <v4:endUserLanguage>EN</v4:endUserLanguage>
+               <v4:consumerApplication>${Req_consumerApplication}</v4:consumerApplication>
+            </v4:transactionData>
+         </v4:serviceContext>
+         <v4:serviceData>
+            <v4:person>
+               
+               <v41:birthDate dataQualityMask="">${Req_birthDate}</v41:birthDate>
+               <v41:wegenerIdentifier>${Req_wegenerIdentifier}</v41:wegenerIdentifier>
+               <v41:name>
+                  
+                  <v41:firstName dataQualityMask="F">${Req_firstName}</v41:firstName>
+                  
+                  <v41:preferredFirstName>${Req_preferredFirstName}</v41:preferredFirstName>
+                  
+                  <v41:lastName dataQualityMask="L">${Req_lastName}</v41:lastName>
+               </v41:name>
+               
+               <v41:title>
+                  <v41:value>${Req_title_value}</v41:value>
+               </v41:title>
+               
+               <v41:gender>
+                  
+                  <v41:value dataQualityMask="">${Req_gender_value}</v41:value>
+               </v41:gender>
+			    <v41:credential>
+						<v41:credential>
+							<v41:identifier>${Req_mobile_id}</v41:identifier>
+							<v41:documentType>
+								<v41:value>${Req_documentType}</v41:value>
+							</v41:documentType>
+						</v41:credential>
+					</v41:credential>
+               <v41:placeOfBirth>
+                  <v41:id>${Req_placeOfBirth_id}</v41:id>
+                  <v41:idContext>
+                     <v41:value>${Req_placeOfBirth_idContext_value}</v41:value>
+                  </v41:idContext>
+               </v41:placeOfBirth>
+               
+               <v41:nationality>
+                  <v41:alpha3Code>BEL</v41:alpha3Code>
+               </v41:nationality>
+               
+               <v41:party>
+                  <v41:isSubjectToVAT>${Req_isSubjectToVAT}</v41:isSubjectToVAT>
+                  
+                 
+                  
+                  <v41:description>${Req_description}</v41:description>
+                  
+                 
+                  <v41:legalLanguage>
+                      <v41:alpha2Code dataQualityMask="">${Req_legalLanguage_alpha2Code}</v41:alpha2Code>
+                  </v41:legalLanguage>
+                  
+                  <v41:preferredCommunicationLanguage>
+                     
+                     <v41:alpha2Code dataQualityMask="">${Req_preferredCommunicationLanguage_alpha2Code}</v41:alpha2Code>
+                  </v41:preferredCommunicationLanguage>
+                  
+                  <v41:numberOfEmployeesRange>
+                     
+                  </v41:numberOfEmployeesRange>
+                  <v41:legalAddress>
+                     
+                     <v41:geographicAddressIdentifier>
+                        <v41:id dataQualityMask="G">${Req_geographicAddressIdentifier_id}</v41:id>
+                        
+                        <v41:idContext>
+                           
+                           <v41:value>${Req_geographicAddressIdentifier_idContext_value}</v41:value>
+                        </v41:idContext>
+                     </v41:geographicAddressIdentifier>
+                  </v41:legalAddress>
+                
+               </v41:party>                  
+            </v4:person>
+            
+            <v4:createMethod>
+               
+               <v41:value>${Req_createMethod_value}</v41:value>
+            </v4:createMethod>
+            
+            <v4:sourceNote>${Req_sourceNote}</v4:sourceNote>
+         </v4:serviceData>
+       </v4:RequestDataCreatePerson>
+   </soapenv:Body></soapenv:Envelope>

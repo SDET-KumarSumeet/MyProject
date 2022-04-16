@@ -1,0 +1,5 @@
+SAPDateAndTime
+custIdOne05DateAndTime
+custIdTwo05DateAndTime
+custIdThree05DateAndTime
+SAPDateAndTime0000000005

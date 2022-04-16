@@ -1,0 +1,4 @@
+HDR|CUSTOMER_ID|PAY_AGR_ID
+Req_customerId|Req_pay_agrId
+TRA|Req_count
+EOF

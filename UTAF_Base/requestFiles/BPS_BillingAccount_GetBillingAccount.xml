@@ -1,0 +1,68 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.billingaccount.bps.services.bgc"
+	xmlns:urn2="urn:v1.requestgetbillingaccount.bps.objects.bgc">
+	<soapenv:Header>
+		<urn:Context version="4.0">
+			<urn:correlationId>${Req_corrId}</urn:correlationId>
+			<urn:consumerApplicationId>TST</urn:consumerApplicationId>
+			<urn:endUserId>id000000</urn:endUserId>
+			<urn:endUserLanguage>EN</urn:endUserLanguage>
+		</urn:Context>
+	</soapenv:Header>
+	<soapenv:Body>
+		<urn1:RequestDataGetBillingAccount
+			version="1.2">
+			<urn1:billingAccountIdentifier>
+				<urn2:id>${Req_billingAccountId}</urn2:id>
+				<urn2:idScope>
+					<urn2:codeSystem>${Req_idScope_codeSystem}</urn2:codeSystem>
+					<urn2:codeSystemVersion>${Req_idScope_codeSystemVersion}
+					</urn2:codeSystemVersion>
+					<urn2:codeDescription>${Req_idScope_codeDescription}
+					</urn2:codeDescription>
+					<urn2:value>${Req_idScope_value}</urn2:value>
+					<urn2:context>${Req_idScope_context}</urn2:context>
+					<urn2:valueDescription>
+						<urn2:defaultName>${Req_idScope_defaultName}</urn2:defaultName>
+						<urn2:type />
+						<urn2:languageName>
+							<urn2:text>${Req_idScope_text}</urn2:text>
+							<urn2:language>
+								<urn2:alpha2Code>${Req_idScope_alpha2Code}</urn2:alpha2Code>
+								<urn2:idScope />
+							</urn2:language>
+						</urn2:languageName>
+					</urn2:valueDescription>
+				</urn2:idScope>
+				<urn2:idContext>
+					<urn2:codeSystem>${Req_idContext_codeSystem}</urn2:codeSystem>
+					<urn2:codeSystemVersion>${Req_idContext_codeSystemVersion}
+					</urn2:codeSystemVersion>
+					<urn2:codeDescription>${Req_idContext_codeDescription}
+					</urn2:codeDescription>
+					<urn2:value>${Req_idContext_value}</urn2:value>
+					<urn2:context>${Req_idContext_context}</urn2:context>
+					<urn2:valueDescription>
+						<urn2:defaultName>${Req_idContext_defaultName}</urn2:defaultName>
+						<urn2:type />
+						<urn2:languageName>
+							<urn2:text>${Req_idContext_text}</urn2:text>
+							<urn2:language>
+								<urn2:alpha2Code>${Req_idContext_alpha2Code}</urn2:alpha2Code>
+								<urn2:idContext />
+							</urn2:language>
+						</urn2:languageName>
+					</urn2:valueDescription>
+				</urn2:idContext>
+			</urn1:billingAccountIdentifier>
+			<urn1:transactionData>
+				<urn1:userContext>
+					<urn1:applicationName>TST</urn1:applicationName>
+					<urn1:correlationId>${Req_corrId}</urn1:correlationId>
+					<urn1:userId>id000000</urn1:userId>
+					<urn1:languageISO2Code>EN</urn1:languageISO2Code>
+				</urn1:userContext>
+			</urn1:transactionData>
+		</urn1:RequestDataGetBillingAccount>
+	</soapenv:Body>
+</soapenv:Envelope>

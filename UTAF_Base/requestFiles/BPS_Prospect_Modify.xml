@@ -1,0 +1,75 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.prospect.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>BPS</urn:consumerApplicationId>
+         <urn:endUserId>id058127</urn:endUserId>
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataModify version="1.4">
+         <urn1:userContext>
+            <urn2:applicationNm>BPS</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:partyId>${Req_partyId}</urn1:partyId>
+         
+         <urn1:nameModTime>${Req_nameModTime}</urn1:nameModTime>
+         
+         <urn1:officialName>${Req_officialName}</urn1:officialName>
+         
+         <urn1:firstName>${Req_firstName}</urn1:firstName>
+         
+         <urn1:urbanAddressStartDate>${Req_urbanAddressStartDate}</urn1:urbanAddressStartDate>
+         
+         <urn1:houseNbr>${Req_houseNbr}</urn1:houseNbr>
+         
+         <urn1:alphaHouseNbr>${Req_alphaHouseNbr}</urn1:alphaHouseNbr>
+         
+         <urn1:streetCode>${Req_streetCode}</urn1:streetCode>
+         
+         <urn1:cityCode>${Req_cityCode}</urn1:cityCode>
+         
+         <urn1:countryIso3Code>${Req_countryIso3Code}</urn1:countryIso3Code>
+         
+         <urn1:residenceName>${Req_residenceName}</urn1:residenceName>
+         
+         <urn1:industrialZone>${Req_industrialZone}</urn1:industrialZone>
+         
+         <urn1:boxNbr>${Req_boxNbr}</urn1:boxNbr>
+         
+         <urn1:apartmentNbr>${Req_apartmentNbr}</urn1:apartmentNbr>
+         
+         <urn1:blockNbr>${Req_blockNbr}</urn1:blockNbr>
+         
+         <urn1:floorNbr>${Req_floorNbr}</urn1:floorNbr>
+         
+         <urn1:partyRoleModTime>${Req_partyRoleModTime}</urn1:partyRoleModTime>
+         
+         <urn1:legalFormCode>${Req_legalFormCode}</urn1:legalFormCode>
+         
+         <urn1:titleCode>${Req_titleCode}</urn1:titleCode>
+         
+         <urn1:nationalityIso3Code>${Req_nationalityIso3Code}</urn1:nationalityIso3Code>
+         
+         <urn1:birthDate>${Req_birthDate}</urn1:birthDate>
+         
+         <urn1:foundationDate>${Req_foundationDate}</urn1:foundationDate>
+         
+         <urn1:legalLangIso2Code>${Req_legalLangIso2Code}</urn1:legalLangIso2Code>
+         
+         <urn1:communicationLangIso2Code>${Req_communicationLangIso2Code}</urn1:communicationLangIso2Code>
+         
+         <urn1:vatNbrCountryIso2Code>${Req_vatNbrCountryIso2Code}</urn1:vatNbrCountryIso2Code>
+         
+         <urn1:vatNbr>${Req_vatNbr}</urn1:vatNbr>
+         
+         <urn1:antimarketingInd>${Req_antimarketingInd}</urn1:antimarketingInd>
+      </urn1:RequestDataModify>
+   </soapenv:Body>
+</soapenv:Envelope>

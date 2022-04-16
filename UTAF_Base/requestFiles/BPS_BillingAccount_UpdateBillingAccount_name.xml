@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.billingaccount.bps.services.bgc"
+	xmlns:urn2="urn:v1.requestupdatebillingaccount.bps.objects.bgc">
+	<soapenv:Header>
+		<urn:Context version="4.0">
+			<urn:correlationId>${Req_corrId}</urn:correlationId>
+			<urn:consumerApplicationId>TST</urn:consumerApplicationId>
+			<urn:endUserId>id000000</urn:endUserId>
+			<urn:endUserLanguage>EN</urn:endUserLanguage>
+		</urn:Context>
+	</soapenv:Header>
+	<soapenv:Body>
+		<urn1:RequestDataUpdateBillingAccount
+			version="1.1">
+			<urn1:billingAccount>
+				<urn2:identifier>
+					<urn2:id>${Req_billingAccountId}</urn2:id>
+					<urn2:idContext>
+						<urn2:value>CDB</urn2:value>
+					</urn2:idContext>
+				</urn2:identifier>
+				<urn2:billRecipient>
+					<urn2:party>
+						<urn2:person updateAction="modify">
+							<urn2:name updateAction="modify">
+								<urn2:firstName>${Req_firstName}</urn2:firstName>
+								<urn2:lastName>${Req_lastName}</urn2:lastName>
+							</urn2:name>
+						</urn2:person>
+					</urn2:party>
+				</urn2:billRecipient>
+			</urn1:billingAccount>
+			<urn1:transactionData>
+				<urn1:userContext>
+					<urn1:applicationName>TST</urn1:applicationName>
+					<urn1:correlationId>${Req_corrId}</urn1:correlationId>
+					<urn1:userId>id000000</urn1:userId>
+					<urn1:languageISO2Code>EN</urn1:languageISO2Code>
+				</urn1:userContext>
+			</urn1:transactionData>
+		</urn1:RequestDataUpdateBillingAccount>
+	</soapenv:Body>
+</soapenv:Envelope>

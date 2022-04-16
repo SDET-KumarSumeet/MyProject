@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.plan.bps.services.bgc" xmlns:urn2="urn:v1.crdmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         
+         <urn:endUserId>id058127</urn:endUserId>
+         
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataFind version="1.1">
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id058127</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         
+         <urn1:pageNbr>${Req_pageNbr}</urn1:pageNbr>
+         <!--Zero or more repetitions:-->
+         <urn1:planTypeList>${Req_planTypeList}</urn1:planTypeList>
+         <!--Zero or more repetitions:-->
+         <urn1:planTypeDetailList>${Req_planTypeDetailList}</urn1:planTypeDetailList>
+         
+         <urn1:activeAndFutureOnly>${Req_activeAndFutureOnly}</urn1:activeAndFutureOnly>
+         
+         <urn1:planIdSearchMask>${Req_planIdSearchMask}</urn1:planIdSearchMask>
+         
+         <urn1:planDescription>${Req_planDescription}</urn1:planDescription>
+         
+         <urn1:productGroupId>${Req_productGroupId}</urn1:productGroupId>
+         
+         <urn1:scopeDefinition>${Req_scopeDefinition}</urn1:scopeDefinition>
+         
+         <urn1:priority>${Req_priority}</urn1:priority>
+         
+         <urn1:sortedByAttribute>${Req_sortedByAttribute}</urn1:sortedByAttribute>
+         
+         <urn1:sortedByOrder>${Req_sortedByOrder}</urn1:sortedByOrder>
+      </urn1:RequestDataFind>
+   </soapenv:Body>
+</soapenv:Envelope>

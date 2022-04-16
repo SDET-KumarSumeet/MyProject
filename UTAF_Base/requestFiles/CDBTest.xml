@@ -1,0 +1,146 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ResponseDataGetBillingAccountList xmlns="urn:v5.customer.bps.services.bgc">
+         <subsegment>11</subsegment>
+         <totalPagesNbr>1</totalPagesNbr>
+         <billingAccount>
+            <accountId>619174762</accountId>
+            <paymentAgreementId>1</paymentAgreementId>
+            <communicationLangIso2>
+               <ns1:code xmlns:ns1="urn:v1.bpsmodel.bps.objects.bgc">NL</ns1:code>
+               <ns2:shortDescr xmlns:ns2="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns2:shortDescr>
+               <ns3:longDescr xmlns:ns3="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns3:longDescr>
+            </communicationLangIso2>
+            <eliseInd>false</eliseInd>
+            <emptyInd>true</emptyInd>
+            <billingAccountName>
+               <ns4:name xmlns:ns4="urn:v1.bpsmodel.bps.objects.bgc">Kinan</ns4:name>
+               <ns5:langIso2 xmlns:ns5="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns5:code>NL</ns5:code>
+                  <ns5:shortDescr>Néerlandais</ns5:shortDescr>
+                  <ns5:longDescr>Néerlandais</ns5:longDescr>
+               </ns5:langIso2>
+               <ns6:firstName xmlns:ns6="urn:v1.bpsmodel.bps.objects.bgc">Sami</ns6:firstName>
+            </billingAccountName>
+            <refundPreference>
+               <ns7:bankAccountCountryIso3 xmlns:ns7="urn:v1.bpsmodel.bps.objects.bgc"/>
+            </refundPreference>
+            <billingAddress>
+               <ns8:country xmlns:ns8="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns9:countryIso3Code xmlns:ns9="urn:v1.addressinfo.lam.objects.bgc">BEL</ns9:countryIso3Code>
+                  <ns10:countryOfficialNm xmlns:ns10="urn:v1.addressinfo.lam.objects.bgc">Belgique/België</ns10:countryOfficialNm>
+               </ns8:country>
+               <ns11:maincity xmlns:ns11="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns12:cityCd xmlns:ns12="urn:v1.addressinfo.lam.objects.bgc">130000</ns12:cityCd>
+                  <ns13:cityOfficialNm xmlns:ns13="urn:v1.addressinfo.lam.objects.bgc">Knesselare</ns13:cityOfficialNm>
+                  <ns14:cityZipCd xmlns:ns14="urn:v1.addressinfo.lam.objects.bgc">9910</ns14:cityZipCd>
+               </ns11:maincity>
+               <ns15:street xmlns:ns15="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns16:streetCode xmlns:ns16="urn:v1.addressinfo.lam.objects.bgc">90100</ns16:streetCode>
+                  <ns17:streetOfficialNm xmlns:ns17="urn:v1.addressinfo.lam.objects.bgc">Looierijstraat</ns17:streetOfficialNm>
+               </ns15:street>
+               <ns18:houseNbr xmlns:ns18="urn:v1.bpsmodel.bps.objects.bgc">11</ns18:houseNbr>
+               <ns19:postboxInd xmlns:ns19="urn:v1.bpsmodel.bps.objects.bgc">false</ns19:postboxInd>
+            </billingAddress>
+            <title>
+               <ns20:code xmlns:ns20="urn:v1.bpsmodel.bps.objects.bgc">01</ns20:code>
+               <ns21:shortDescr xmlns:ns21="urn:v1.bpsmodel.bps.objects.bgc">M</ns21:shortDescr>
+               <ns22:longDescr xmlns:ns22="urn:v1.bpsmodel.bps.objects.bgc">Monsieur</ns22:longDescr>
+            </title>
+            <hasPackInd>false</hasPackInd>
+         </billingAccount>
+         <billingAccount>
+            <accountId>620178007</accountId>
+            <paymentAgreementId>2</paymentAgreementId>
+            <communicationLangIso2>
+               <ns23:code xmlns:ns23="urn:v1.bpsmodel.bps.objects.bgc">NL</ns23:code>
+               <ns24:shortDescr xmlns:ns24="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns24:shortDescr>
+               <ns25:longDescr xmlns:ns25="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns25:longDescr>
+            </communicationLangIso2>
+            <eliseInd>false</eliseInd>
+            <emptyInd>true</emptyInd>
+            <billingAccountName>
+               <ns26:name xmlns:ns26="urn:v1.bpsmodel.bps.objects.bgc">Kinan</ns26:name>
+               <ns27:langIso2 xmlns:ns27="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns27:code>NL</ns27:code>
+                  <ns27:shortDescr>Néerlandais</ns27:shortDescr>
+                  <ns27:longDescr>Néerlandais</ns27:longDescr>
+               </ns27:langIso2>
+               <ns28:firstName xmlns:ns28="urn:v1.bpsmodel.bps.objects.bgc">Sami</ns28:firstName>
+            </billingAccountName>
+            <refundPreference>
+               <ns29:bankAccountCountryIso3 xmlns:ns29="urn:v1.bpsmodel.bps.objects.bgc"/>
+            </refundPreference>
+            <billingAddress>
+               <ns30:country xmlns:ns30="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns31:countryIso3Code xmlns:ns31="urn:v1.addressinfo.lam.objects.bgc">BEL</ns31:countryIso3Code>
+                  <ns32:countryOfficialNm xmlns:ns32="urn:v1.addressinfo.lam.objects.bgc">Belgique/België</ns32:countryOfficialNm>
+               </ns30:country>
+               <ns33:maincity xmlns:ns33="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns34:cityCd xmlns:ns34="urn:v1.addressinfo.lam.objects.bgc">130000</ns34:cityCd>
+                  <ns35:cityOfficialNm xmlns:ns35="urn:v1.addressinfo.lam.objects.bgc">Knesselare</ns35:cityOfficialNm>
+                  <ns36:cityZipCd xmlns:ns36="urn:v1.addressinfo.lam.objects.bgc">9910</ns36:cityZipCd>
+               </ns33:maincity>
+               <ns37:street xmlns:ns37="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns38:streetCode xmlns:ns38="urn:v1.addressinfo.lam.objects.bgc">90100</ns38:streetCode>
+                  <ns39:streetOfficialNm xmlns:ns39="urn:v1.addressinfo.lam.objects.bgc">Looierijstraat</ns39:streetOfficialNm>
+               </ns37:street>
+               <ns40:houseNbr xmlns:ns40="urn:v1.bpsmodel.bps.objects.bgc">11</ns40:houseNbr>
+               <ns41:postboxInd xmlns:ns41="urn:v1.bpsmodel.bps.objects.bgc">false</ns41:postboxInd>
+            </billingAddress>
+            <title>
+               <ns42:code xmlns:ns42="urn:v1.bpsmodel.bps.objects.bgc">01</ns42:code>
+               <ns43:shortDescr xmlns:ns43="urn:v1.bpsmodel.bps.objects.bgc">M</ns43:shortDescr>
+               <ns44:longDescr xmlns:ns44="urn:v1.bpsmodel.bps.objects.bgc">Monsieur</ns44:longDescr>
+            </title>
+            <hasPackInd>false</hasPackInd>
+         </billingAccount>
+         <billingAccount>
+            <accountId>620178008</accountId>
+            <paymentAgreementId>3</paymentAgreementId>
+            <communicationLangIso2>
+               <ns45:code xmlns:ns45="urn:v1.bpsmodel.bps.objects.bgc">NL</ns45:code>
+               <ns46:shortDescr xmlns:ns46="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns46:shortDescr>
+               <ns47:longDescr xmlns:ns47="urn:v1.bpsmodel.bps.objects.bgc">Néerlandais</ns47:longDescr>
+            </communicationLangIso2>
+            <eliseInd>false</eliseInd>
+            <emptyInd>true</emptyInd>
+            <billingAccountName>
+               <ns48:name xmlns:ns48="urn:v1.bpsmodel.bps.objects.bgc">Kinan</ns48:name>
+               <ns49:langIso2 xmlns:ns49="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns49:code>NL</ns49:code>
+                  <ns49:shortDescr>Néerlandais</ns49:shortDescr>
+                  <ns49:longDescr>Néerlandais</ns49:longDescr>
+               </ns49:langIso2>
+               <ns50:firstName xmlns:ns50="urn:v1.bpsmodel.bps.objects.bgc">Sami</ns50:firstName>
+            </billingAccountName>
+            <refundPreference>
+               <ns51:bankAccountCountryIso3 xmlns:ns51="urn:v1.bpsmodel.bps.objects.bgc"/>
+            </refundPreference>
+            <billingAddress>
+               <ns52:country xmlns:ns52="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns53:countryIso3Code xmlns:ns53="urn:v1.addressinfo.lam.objects.bgc">BEL</ns53:countryIso3Code>
+                  <ns54:countryOfficialNm xmlns:ns54="urn:v1.addressinfo.lam.objects.bgc">Belgique/België</ns54:countryOfficialNm>
+               </ns52:country>
+               <ns55:maincity xmlns:ns55="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns56:cityCd xmlns:ns56="urn:v1.addressinfo.lam.objects.bgc">130000</ns56:cityCd>
+                  <ns57:cityOfficialNm xmlns:ns57="urn:v1.addressinfo.lam.objects.bgc">Knesselare</ns57:cityOfficialNm>
+                  <ns58:cityZipCd xmlns:ns58="urn:v1.addressinfo.lam.objects.bgc">9910</ns58:cityZipCd>
+               </ns55:maincity>
+               <ns59:street xmlns:ns59="urn:v1.bpsmodel.bps.objects.bgc">
+                  <ns60:streetCode xmlns:ns60="urn:v1.addressinfo.lam.objects.bgc">90100</ns60:streetCode>
+                  <ns61:streetOfficialNm xmlns:ns61="urn:v1.addressinfo.lam.objects.bgc">Looierijstraat</ns61:streetOfficialNm>
+               </ns59:street>
+               <ns62:houseNbr xmlns:ns62="urn:v1.bpsmodel.bps.objects.bgc">11</ns62:houseNbr>
+               <ns63:postboxInd xmlns:ns63="urn:v1.bpsmodel.bps.objects.bgc">false</ns63:postboxInd>
+            </billingAddress>
+            <title>
+               <ns64:code xmlns:ns64="urn:v1.bpsmodel.bps.objects.bgc">01</ns64:code>
+               <ns65:shortDescr xmlns:ns65="urn:v1.bpsmodel.bps.objects.bgc">M</ns65:shortDescr>
+               <ns66:longDescr xmlns:ns66="urn:v1.bpsmodel.bps.objects.bgc">Monsieur</ns66:longDescr>
+            </title>
+            <hasPackInd>false</hasPackInd>
+         </billingAccount>
+      </ResponseDataGetBillingAccountList>
+   </soapenv:Body>
+</soapenv:Envelope>

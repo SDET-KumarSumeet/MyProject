@@ -1,0 +1,57 @@
+2021-12-20 18:39:02,975  INFO UTAFLog.java [main] UTAFLog:9 - Using UTAF : 1.0.93
+2021-12-20 18:39:02,976  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:39:02,976  INFO UTAFLog.java [main] UTAFLog:9 - Starting the execution of : PTY_GetPersonListwith_1_PersonId
+2021-12-20 18:39:03,229  INFO UTAFLog.java [main] UTAFLog:9 - In afCheckPreCondition
+2021-12-20 18:39:03,229  INFO UTAFLog.java [main] UTAFLog:9 - Preconditions satisfied
+2021-12-20 18:39:03,230  INFO UTAFLog.java [main] UTAFLog:9 - Out afCheckPreCondition
+2021-12-20 18:39:03,232  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.USER is ptsi_210309.jks
+2021-12-20 18:39:03,232  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:39:03,232  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.PASS is pts66
+2021-12-20 18:39:03,232  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:39:03,233  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Value of ITT.PTS.PTY.GetPersonList.URL is https://apigw-itt.bc/b182-01/person/flv000568/v1
+2021-12-20 18:39:03,233  INFO UTAFLog.java [main] UTAFLog:9 - In function cfGlGetFrameworkProperty : Pass
+2021-12-20 18:39:03,233  INFO UTAFLog.java [main] UTAFLog:9 - In cfGlSerSendRequest
+2021-12-20 18:39:03,234  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================URL===============================================
+2021-12-20 18:39:03,234  INFO UTAFLog.java [main] UTAFLog:9 - https://apigw-itt.bc/b182-01/person/flv000568/v1
+2021-12-20 18:39:03,289  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================Request===========================================
+2021-12-20 18:39:03,289  INFO UTAFLog.java [main] UTAFLog:9 - <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://api.web.bc/api/schema/commoncontext/transaction/v1" xmlns:v11="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:v12="http://api.web.bc/capability/business/b182-01/services/person/flv000568/v1" xmlns:v13="http://api.web.bc/capability/business/b182-01/objects/requestgetpersonlist/flv000568/v1" xmlns:v2="http://api.web.bc/api/schema/commoncontext/v2">
+<soapenv:Header>
+<v2:CommonContextRequest>
+<v2:transaction>
+<v1:messageId>234299583</v1:messageId>
+<v1:conversationId>234299583</v1:conversationId>
+<v1:dateTimeCreated>2021-12-20</v1:dateTimeCreated>
+</v2:transaction>
+</v2:CommonContextRequest>
+</soapenv:Header>
+<soapenv:Body>
+<v12:RequestDataGetPersonList>
+<v12:serviceContext>
+<v12:transactionData>
+<v12:endUserId>609496301</v12:endUserId>
+<v12:endUserLanguage>EN</v12:endUserLanguage>
+<v12:consumerApplication>SHE</v12:consumerApplication>
+</v12:transactionData>
+</v12:serviceContext>
+<v12:serviceData>
+<v12:personIdentifier>
+<v13:id>temp_ExtPartyId_1</v13:id>
+<v13:idScope>
+<v13:value>ENT</v13:value>
+</v13:idScope>
+<v13:idContext>
+<v13:value>B182</v13:value>
+</v13:idContext>
+</v12:personIdentifier>
+<v12:personIdentifier>
+<v13:id>temp_ExtPartyId_1</v13:id>
+</v12:personIdentifier>
+</v12:serviceData>
+</v12:RequestDataGetPersonList>
+</soapenv:Body>
+</soapenv:Envelope>
+
+2021-12-20 18:39:04,892  INFO UTAFLog.java [main] UTAFLog:9 - Request posted successfully
+2021-12-20 18:39:04,892  INFO UTAFLog.java [main] UTAFLog:9 - ===============================================Response===========================================
+2021-12-20 18:39:04,986  INFO UTAFLog.java [main] UTAFLog:9 - Send request to get person details
+2021-12-20 18:39:04,988  INFO UTAFLog.java [main] UTAFLog:9 - Out cfGlSerSendRequest

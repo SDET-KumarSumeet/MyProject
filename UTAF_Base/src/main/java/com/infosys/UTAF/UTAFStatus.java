@@ -1,0 +1,8 @@
+package com.infosys.UTAF;
+
+public enum UTAFStatus {
+		PASS,FAIL,INFO,SKIP,DEBUG,FATAL,ERROR,WARNING,UNKNOWN,BLOCK,INPROGRESS,NORUN	
+	}
+
+
+

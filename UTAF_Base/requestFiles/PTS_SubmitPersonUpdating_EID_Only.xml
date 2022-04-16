@@ -1,0 +1,67 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <ns4:CommonContextRequest xmlns:ns4="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns6="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns="http://api.web.bc/capability/business/b182-01/services/personupdating/flv000164/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns8="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns7="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns9="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns2="http://api.web.bc/capability/business/b182-01/objects/requestsubmitpersonupdating/flv000164/v1" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/transaction/v1">
+         <ns4:transaction>
+            <ns3:messageId>05019cdf-3512-48d4-aa4b-631a751e4aa4</ns3:messageId>
+            <ns3:correlationId>f2c516c3-a7c5-4612-a2ee-b861220110f0</ns3:correlationId>
+            <ns3:conversationId>03359708-d829-4703-b7c2-75c773dc0587</ns3:conversationId>
+            <ns3:dateTimeCreated>2021-06-10T13:57:38.12+02:00</ns3:dateTimeCreated>
+         </ns4:transaction>
+      </ns4:CommonContextRequest>
+   </soap:Header>
+   <soap:Body>
+      <RequestDataSubmitPersonUpdating xmlns="http://api.web.bc/capability/business/b182-01/services/personupdating/flv000164/v1" xmlns:ns6="http://api.web.bc/api/schema/servicecontext/processdata/v1" xmlns:ns5="http://api.web.bc/api/schema/commoncontext/consumertransaction/v1" xmlns:ns8="http://api.web.bc/api/schema/commoncontext/documentation/v1" xmlns:ns7="http://api.web.bc/api/schema/commoncontext/servicestatus/v1" xmlns:ns9="http://api.web.bc/api/schema/common/fault/v1" xmlns:ns2="http://api.web.bc/capability/business/b182-01/objects/requestsubmitpersonupdating/flv000164/v1" xmlns:ns4="http://api.web.bc/api/schema/commoncontext/v2" xmlns:ns3="http://api.web.bc/api/schema/commoncontext/transaction/v1">
+         <serviceContext>
+            <transactionData>
+               <endUserLanguage>EN</endUserLanguage>
+               <consumerApplication>DOF</consumerApplication>
+            </transactionData>
+         </serviceContext>
+         <serviceData>
+            <person>
+               <ns2:party>
+            <ns2:charVal>
+              <ns2:characteristicName>originalSource</ns2:characteristicName>
+              <ns2:value>BELFIUS</ns2:value>
+            </ns2:charVal>                           
+                  <ns2:charVal>
+                 
+                     <ns2:characteristicName>IV</ns2:characteristicName>
+                     <ns2:value>35CFVHKb9dNRu/g2p/I7hg==</ns2:value>
+                  </ns2:charVal>
+               </ns2:party>
+               <ns2:identifier>
+                  <ns2:id>${Req_partyId}</ns2:id>
+                  <ns2:idScope>
+                     <ns2:value>ENT</ns2:value>
+                  </ns2:idScope>
+                  <ns2:idContext>
+                     <ns2:value>B182</ns2:value>
+                  </ns2:idContext>
+               </ns2:identifier>
+               <ns2:credential>
+                  <ns2:EIdentityCard>
+                     <ns2:cardNumber>R80cH1BofDgFZjlIueyx3g==</ns2:cardNumber>
+                     <ns2:nationalNumber>O6x1N5Awrf+VFLh2wu7JLw==</ns2:nationalNumber>
+                     <ns2:dateOfBirth>${Req_dateOfBirth}</ns2:dateOfBirth>
+                     <ns2:lastName>${Req_lastName}</ns2:lastName>
+                     <ns2:givenNames>${Req_firstName}</ns2:givenNames>
+                     <ns2:validFor>
+                        <ns2:startTimeStamp>2017-02-01T23:00:00Z</ns2:startTimeStamp>
+                        <ns2:endTimeStamp>${Req_endTimeStamp}T23:00:00Z</ns2:endTimeStamp>
+                     </ns2:validFor>
+                     <ns2:assuranceLevel>
+                        <ns2:value>${Req_assuranceLevel}</ns2:value>
+                     </ns2:assuranceLevel>
+                     <ns2:gender>
+                        <ns2:value>${Req_gender}</ns2:value>
+                     </ns2:gender>
+                  </ns2:EIdentityCard>
+               </ns2:credential>
+            </person>
+         </serviceData>
+      </RequestDataSubmitPersonUpdating>
+   </soap:Body>
+</soap:Envelope>

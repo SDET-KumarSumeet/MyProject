@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v3.subscribedusageplan.bps.services.bgc" xmlns:urn2="urn:v1.bpsmodel.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+         <urn:consumerApplicationId>TST</urn:consumerApplicationId>
+         <urn:endUserId>id000000</urn:endUserId>
+         <urn:endUserLanguage>EN</urn:endUserLanguage>
+         <urn:propagatedKey>${Req_propagatedKey}</urn:propagatedKey>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataAssignSplitPlan version="3.0">
+         <urn1:userContext>
+            <urn2:applicationNm>TST</urn2:applicationNm>
+            <urn2:correlationId>${Req_corrId}</urn2:correlationId>
+            <urn2:userId>id000000</urn2:userId>
+            <urn2:languageIso2Code>EN</urn2:languageIso2Code>
+         </urn1:userContext>
+         <urn1:planId>${Req_planId}</urn1:planId>
+         <!--You have a CHOICE of the next 3 items at this level-->
+         <urn1:customerId>${Req_customerId}</urn1:customerId>
+         <urn1:accountId>${Req_accountId}</urn1:accountId>
+         
+         <urn1:subscriptionNbr>${Req_subscriptionNbr}</urn1:subscriptionNbr>
+         
+         <urn1:networkType>${Req_networkType}</urn1:networkType>
+         
+         <urn1:startDate>${Req_startDate}</urn1:startDate>
+         
+         <urn1:endDate>${Req_endDate}</urn1:endDate>
+         <urn1:secondPayerCustomerId>${Req_secondPayerCustomerId}</urn1:secondPayerCustomerId>
+         <urn1:secondPayerAccountId>${Req_secondPayerAccountId}</urn1:secondPayerAccountId>
+         
+         <urn1:lineUsage>${Req_lineUsage}</urn1:lineUsage>
+      </urn1:RequestDataAssignSplitPlan>
+   </soapenv:Body>
+</soapenv:Envelope>

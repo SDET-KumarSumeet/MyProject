@@ -1,0 +1,2 @@
+triggerId|EURODB_CDBF_currentDateTime_triggerId_001|cimRequestOutputFileName|outputDateTime|002|currentDateTime
+|001|custIdOne|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||

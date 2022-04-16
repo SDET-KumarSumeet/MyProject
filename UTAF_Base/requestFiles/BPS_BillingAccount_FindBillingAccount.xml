@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:v4.context.vss.objects.bgc" xmlns:urn1="urn:v1.billingaccount.bps.services.bgc" xmlns:urn2="urn:v1.requestfindbillingaccount.bps.objects.bgc">
+   <soapenv:Header>
+      <urn:Context version="4.0">
+         <urn:correlationId>${Req_corrId}</urn:correlationId>
+		<urn:consumerApplicationId>TST</urn:consumerApplicationId>
+		<urn:endUserId>id000000</urn:endUserId>
+		<urn:endUserLanguage>EN</urn:endUserLanguage>
+      </urn:Context>
+   </soapenv:Header>
+   <soapenv:Body>
+      <urn1:RequestDataFindBillingAccount version="1.2">
+         <urn1:customerIdentifier>
+            <urn2:id>${Req_custId}</urn2:id>
+            <urn2:idContext>
+               <urn2:value>${Req_idContext_Id}</urn2:value>
+            </urn2:idContext>
+         </urn1:customerIdentifier>
+         <urn1:transactionData>
+            <urn1:userContext>
+               <urn1:applicationName>TST</urn1:applicationName>
+			<urn1:correlationId>${Req_corrId}</urn1:correlationId>
+			<urn1:userId>id000000</urn1:userId>
+			<urn1:languageISO2Code>EN</urn1:languageISO2Code>
+            </urn1:userContext>
+         </urn1:transactionData>
+         <urn1:scoping>
+            <urn1:dataScope>
+              <urn2:value>P</urn2:value>
+            </urn1:dataScope>
+         </urn1:scoping>
+      </urn1:RequestDataFindBillingAccount>
+   </soapenv:Body>
+</soapenv:Envelope>

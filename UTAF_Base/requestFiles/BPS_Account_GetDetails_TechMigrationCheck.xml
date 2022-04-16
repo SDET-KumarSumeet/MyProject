@@ -1,0 +1,23 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <ns3:Context xmlns:ns3="urn:v4.context.vss.objects.bgc" xmlns="urn:v1.bpsmodel.bps.objects.bgc" xmlns:ns2="urn:v2.account.bps.services.bgc" xmlns:ns4="urn:v1.addressinfo.lam.objects.bgc" xmlns:ns5="urn:v1.technicalerror.vss.objects.bgc" xmlns:ns6="urn:v1.functionalerror.vss.objects.bgc" xmlns:ns7="urn:v1.checkservice.vss.objects.bgc">
+         <ns3:correlationId>${Req_corrId}</ns3:correlationId>
+         <ns3:consumerApplicationId>MSPC</ns3:consumerApplicationId>
+         <ns3:endUserId>id994442</ns3:endUserId>
+         <ns3:endUserLanguage>EN</ns3:endUserLanguage>
+      </ns3:Context>
+   </soap:Header>
+   <soap:Body>
+      <ns2:RequestDataGetDetails xmlns:ns2="urn:v2.account.bps.services.bgc" xmlns="urn:v1.bpsmodel.bps.objects.bgc" xmlns:ns3="urn:v4.context.vss.objects.bgc" xmlns:ns4="urn:v1.addressinfo.lam.objects.bgc" xmlns:ns5="urn:v1.technicalerror.vss.objects.bgc" xmlns:ns6="urn:v1.functionalerror.vss.objects.bgc" xmlns:ns7="urn:v1.checkservice.vss.objects.bgc">
+         <ns2:userContext>
+            <applicationNm>MSPC</applicationNm>
+            <correlationId>${Req_corrId}</correlationId>
+            <userId>id994442</userId>
+            <languageIso2Code>EN</languageIso2Code>
+         </ns2:userContext>
+         <ns2:billingAccountId>${Req_billingAccountId}</ns2:billingAccountId>
+         <ns2:partyId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+         <ns2:paymentAgreementId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+      </ns2:RequestDataGetDetails>
+   </soap:Body>
+</soap:Envelope>

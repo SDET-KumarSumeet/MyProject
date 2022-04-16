@@ -1,0 +1,110 @@
+{
+	"serviceContext": {
+		"transactionData": {
+			"transactionId": "${Req_transactionId}",
+			"transactionDate": "${Req_transactionDate}",
+			"endUserId": "${Req_endUserId}",
+			"endUserLanguage": "${Req_endUserLanguage}",
+			"consumerApplication": "${Req_consumerApplication}"
+		}
+	},
+	"serviceData": {
+		"customer": {
+			"partyIdentifier": {
+				"personIdentifier": {
+					"id": "${Req_customer_identifier_id}",
+					"idScope": {
+					"value": "${Req_customer_identifier_idScope}"
+					},
+					"idContext": {
+					"value": "${Req_customer_identifier_idContext}"
+					}
+				}
+			},
+			"isRestrictel": ${Req_isRestrictel},
+			"charVal": [
+				{
+					"name": "NOTES",
+					"value": "${Req_NOTES}"
+				},
+				{
+					"name": "EXTRA_ADDR_LINE",
+					"value": "${Req_EXTRA_ADDR_LINE}"
+				}
+			],
+			"classification": [
+				{
+					"classification": {
+						"codeSystem": "${Req_classification_codeSystem}",
+						"value": "${Req_classification_value}"
+					}
+				},
+				{
+					"classification": {
+						"codeSystem": "${Req_classification_codeSystem_01}",
+						"value": "${Req_classification_value_01}"
+					}
+				}
+			]
+		},
+		"referenceObjects": {
+			"person": {
+			"identifier": [{
+					"id": "${Req_customer_identifier_id}",
+					"idScope": {
+					"value": "${Req_customer_identifier_idScope}"
+					},
+					"idContext": {
+					"value": "${Req_customer_identifier_idContext}"
+					}
+				}],
+				"name": {
+					"firstName": "${Req_firstName}",
+					"lastName": "${Req_lastName}",
+					"printName": "${Req_printName}"
+				},
+				"subTitle": "${Req_subTitle}",
+				"title": {
+					"value": "${Req_title_value}"
+				},
+				"foundingDate": "${Req_party_foundingDate}",
+				"birthDate": "${Req_birthDate}",
+				"businessType": {
+					"value": "${Req_businessType_value}"
+				},
+				"party": {
+				"isSubjectToVAT": ${Req_isSubjectToVAT},
+				"VATNumber": {
+						"countryCode": {
+							"alpha2Code": "${Req_VAT_countryCode_alpha2Code}"
+						},
+						"VATNumber": "${Req_VATNumber}"
+					},
+					"NACECode": {
+						"value": "${Req_NACECode_value}"
+					},
+					"enterpriseNumber": "${Req_enterpriseNumber}",
+					"legalLanguage": {
+						"alpha2Code": "${Req_legalLanguage_alpha2Code}"
+					},
+					"preferredCommunicationLanguage": {
+						"alpha2Code": "${Req_communicationLanguage_alpha2Code}"
+					},
+					"legalAddress": {
+						"geographicAddressIdentifier": {
+							"id": "${Req_geographicAddressIdentifier_id}",
+							"idScope": {
+								"value": "${Req_geographicAddressIdentifier_idScope}"
+							},
+							"idContext": {
+								"value": "${Req_geographicAddressIdentifier_idContext}"
+							}
+						}
+					}
+				
+				}
+			}
+			
+		}
+	}
+}
