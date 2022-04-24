@@ -12,8 +12,9 @@ Print the minimum amount of money you (and your friends) have to pay in order to
 */
 
 
-import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 
 public class Flowers {
 

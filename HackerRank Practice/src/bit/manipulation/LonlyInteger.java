@@ -1,3 +1,4 @@
+package bit.manipulation;
 /* Lonely Integer
 There are N integers in an array A. All but one integer occur in pairs. Your task is to find the number that occurs only once.
 
@@ -14,11 +15,10 @@ Output Format
 
 Output S, the number that occurs only once.
 */
-
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class LonlyInteger {
 
     public static void main(String[] args) {
     
