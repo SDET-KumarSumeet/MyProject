@@ -1,4 +1,3 @@
-
 /* Find Prefix
 
 Lea is building a search engine. She just implemented a predictive feature that shows all possible search 
